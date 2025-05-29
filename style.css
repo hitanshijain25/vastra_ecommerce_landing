@@ -1,0 +1,167 @@
+body {
+  font-family: 'SEGOE UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color:#fff;
+  color: #333;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #eee;
+  background-color: #fff;
+}
+
+.logo {
+  font-weight: bolder;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+nav{
+    color:#000;
+    font-size:10px;
+    font-weight: bolder;
+}
+
+.nav-left a,
+.nav-right span {
+  margin:0 10px;
+  text-decoration: none;
+  color:#333;
+  font-size:16px;
+}
+  
+
+.search input {
+  padding: 0.4rem 0.8rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 2rem 1rem;
+  background-color: #f9f9f9;
+}
+
+.main-text{
+  text-align: center;
+}
+
+.main-text p{
+  font-size:15px;
+  color:#777;
+  font-weight: bolder;
+}
+
+.main img {
+  max-height: 320px;
+  object-fit: contain;
+}
+
+section {
+  padding: 2rem 1.5rem;
+}
+
+h2 {
+  font-size: 3rem;
+  font-weight: bolder;
+  margin-bottom: 1.5rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+}
+
+.card {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.card img {
+  width: 100;
+  border-radius: 8px;
+  margin-bottom: 0.5rem;
+}
+
+.card p {
+  font-size: 0.5rem;
+  color: #333;
+}
+
+.card h3 {
+  margin: 0.5rem 0;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 0.4rem 1rem;
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 0.875rem;
+}
+
+.footer {
+  background-color: #f6f6f6;
+  padding: 2rem 1rem;
+  border-top: 1px solid #ddd;
+  margin-top: 4rem;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 1rem;
+}
+
+.footer-links a {
+  color: var(--main-colour);
+  font-size: 1.2rem;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-links a:hover {
+  color: #b8738b;
+}
+
+.footer-links i {
+  margin-right: 0.5rem;
+}
+
+.email-link {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.email-link i {
+  font-size: 1.2rem;
+}
+
+.footer p {
+  font-size: 1rem;
+  color: var(--dark-color);
+}
